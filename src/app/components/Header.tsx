@@ -1,7 +1,7 @@
 import Image from "next/image";
-import GenericInput from "./GenericInput";
+import { GenericInput } from "./GenericInput";
 
-export default function Header() {
+export function Header() {
     return (
         <header className="flex items-center justify-around h-24 bg-[var(--light-yellow-bg)]">
             <Image
@@ -10,7 +10,7 @@ export default function Header() {
                 height={200}
                 alt="Petzzz logo"
             />
-            <GenericInput placeHolderText={"Escolha aqui sua busca"}/>
+            <GenericInput placeHolderText={"Escolha aqui sua busca"} />
 
         </header>
     )
