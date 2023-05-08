@@ -1,4 +1,4 @@
-// import { cookies, headers } from "next/dist/client/components/headers";
+import { RegisterFormCard } from "@/app/components/RegisterFormCard/RegisterFormCard"
 
 export const metadata = {
   title: 'PetzZz - Sign-Up'
@@ -6,7 +6,8 @@ export const metadata = {
 
 export default function SignUp() {
   return (
-    <main className="flex justify-between items-center grow p-16 bg-black">
+    <main className="flex justify-between items-center grow px-32 py-12 bg-white">
+      <RegisterFormCard/>
     </main> 
   )
 }
