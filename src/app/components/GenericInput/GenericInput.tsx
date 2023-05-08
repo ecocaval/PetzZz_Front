@@ -26,7 +26,7 @@ export function GenericInput({ placeHolderText, useResponsivePlaceholder = true,
             !             pois aqui nós utilizamos a window para fazer a lógica, que só existe no client...
         */
         if (useResponsivePlaceholder) {
-            
+
             if (inputRef.current) {
                 const placeHolderStyle = window.getComputedStyle(inputRef.current, '::placeholder');
 
@@ -47,7 +47,10 @@ export function GenericInput({ placeHolderText, useResponsivePlaceholder = true,
                     ref={inputRef}
                     className="placeholder-neutral-200 placeholder-hidden p-2 w-full min-w-[140px] max-w-[400px] rounded-md border border-1 border-[var(--main-blue-bg)]"
                 />
-                <div className="absolute top-[50%] translate-y-[-50%] right-[0%] translate-x-[-50%]">{children}</div>
+                <div className="absolute top-[50%] translate-y-[-50%] right-[0%] translate-x-[-50%]">
+                    {/* Essa children foi pensada para ser o icone que aparece a direita do input */}
+                    {children} 
+                </div>
             </span>
         </>
     )
