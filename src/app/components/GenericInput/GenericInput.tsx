@@ -28,9 +28,9 @@ export function GenericInput({ placeHolderText, useResponsivePlaceholder = true,
         if (useResponsivePlaceholder) {
             
             if (inputRef.current) {
-                const placeholderStyle = window.getComputedStyle(inputRef.current, '::placeholder');
+                const placeHolderStyle = window.getComputedStyle(inputRef.current, '::placeholder');
 
-                const screenIsSmallForPlaceHolder = (parseFloat(placeholderStyle.width) > window.innerWidth / 2)
+                const screenIsSmallForPlaceHolder = (parseFloat(placeHolderStyle.width) > window.innerWidth / 2)
 
                 if (screenIsSmallForPlaceHolder) {
                     setDefinitePlaceHolderText(DEFAULT_PLACEHOLDET_TEXT)
