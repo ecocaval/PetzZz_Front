@@ -16,12 +16,17 @@
 
   /* Colors used in input responsiveness design */
   --wrong-input-red-bg: #950000;
-  --correct-input-gree-bg: #0B8B00;
+  --correct-input-green-bg: #0B8B00;
+
+  --icons-main-color: var(--main-blue-bg);
 }
 
 /* Reset CSS */
 *{
   box-sizing: border-box;
+}
+*:focus{
+  outline: none;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
