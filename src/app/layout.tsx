@@ -13,7 +13,7 @@ export default function RootLayout({ children }: {
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body className={`${inter.className} h-screen flex flex-col `}>
         <Header />
         {children}
       </body>
