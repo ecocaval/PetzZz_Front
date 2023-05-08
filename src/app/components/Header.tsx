@@ -32,7 +32,7 @@ export function Header() {
                 height={200}
                 alt="Petzzz logo"
             />
-            <div className="flex justify-between w-[600px] border border-2 ps-4 border-black max-[650px]:justify-center">
+            <div className="flex justify-between w-[600px] border border-2 ps-4 border-black max-[650px]:justify-center max-[400px]:w-max">
                 <GenericInput placeHolderText={"Escolha aqui sua busca"} />
                 <section className="flex w-1/2 ps-4 justify-between items-center min-[1000px]:ps-16 max-[650px]:hidden">
                     <HomeIcon />
