@@ -46,7 +46,7 @@ export function RegisterForm() {
                     placeHolderText="Sua senha..."
                     useResponsivePlaceholder={false}
                     extraClassConfigs="w-full mx-auto my-3"
-                    iconsExtraClassConfigs="right-[-2%]"
+                    iconsExtraClassConfigs="right-[-1%]"
                 >
                     <KeyIcon />
                 </GenericInput>
@@ -54,7 +54,7 @@ export function RegisterForm() {
                     placeHolderText="Confirme sua senha..."
                     useResponsivePlaceholder={false}
                     extraClassConfigs="w-full mx-auto my-3"
-                    iconsExtraClassConfigs="right-[-2%]"
+                    iconsExtraClassConfigs="right-[-1%]"
                 >
                     <KeyIcon />
                 </GenericInput>

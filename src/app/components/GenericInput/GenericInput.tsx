@@ -18,7 +18,7 @@ export function GenericInput({
     iconsExtraClassConfigs, //? Para passar uma configuração extra de style ao icon do input
     useResponsivePlaceholder = true,
     children
-}: GenericInputProps) {
+}: GenericInputProps) { 
 
     const inputRef = useRef<HTMLInputElement>(null);
 

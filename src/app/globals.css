@@ -5,42 +5,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 :root {
-  /* Blue colors used in design */
-  --main-blue-bg: #00558B;
-  --light-blue-bg: #DDE5EB;
+	/* Blue colors used in design */
+	--main-blue-bg: #00558B;
+	--light-blue-bg: #DDE5EB;
 
-  /* Yellow colors used in design */
-  --heavy-yellow-bg: #FECFB0;
-  --light-yellow-bg: #FFE3D0;
-  --product-yellow-bg: #F1924D;
+	/* Yellow colors used in design */
+	--super-heavy-yellow-bg: #FFCEAD;
+	--heavy-yellow-bg: #FECFB0;
+	--light-yellow-bg: #FFE3D0;
+	--product-yellow-bg: #F1924D;
 
-  /* Colors used in input responsiveness design */
-  --wrong-input-red-bg: #950000;
-  --correct-input-green-bg: #0B8B00;
+	--card-opaque-yellow-bg: #FFF0E6;
 
-  --icons-main-color: var(--main-blue-bg);
+	/* Colors used in input responsiveness design */
+	--wrong-input-red-bg: #950000;
+	--correct-input-green-bg: #0B8B00;
+
+	--icons-main-color: var(--main-blue-bg);
+}
+
+.text-shadow {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 /* Reset CSS */
-*{
-  box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-*:focus{
-  outline: none;
+
+*:focus {
+	outline: none;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -48,25 +136,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
