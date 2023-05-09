@@ -1,5 +1,7 @@
+import { v4 as generateUuid } from 'uuid'
 import { Lato } from 'next/font/google'
 import DefaultUserIcon from '../vectors/DefaultUserIcon'
+
 
 const latoTextFont = Lato({
     weight: '300',
@@ -20,7 +22,7 @@ export function RaitingComments({ raitingCommentsCards }:
         <ul className='ps-4 flex py-6 gap-6 overflow-x-auto w-[1/1] scrollbar-hide'>
             {
                 raitingCommentsCards.map((commentCard) => (
-                    <li className="bg-[var(--card-opaque-yellow-bg)] min-w-[125px] shadow-lg h-24 rounded-xl text-sm p-4">
+                    <li key={generateUuid()} className="bg-[var(--card-opaque-yellow-bg)] min-w-[125px] shadow-lg h-24 rounded-xl text-sm p-4">
                         <p className={`${latoTextFont.className} text-slate-600 text-ellipsis h-2/3 overflow-hidden`}>{commentCard?.comment}</p>
                         <div className='flex gap-1 h-max'>
                             <DefaultUserIcon />
