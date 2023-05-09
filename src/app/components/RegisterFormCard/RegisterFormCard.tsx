@@ -20,7 +20,7 @@ const FORGOT_PASSWORD_TEXT = "Esqueceu sua senha?"
 
 export function RegisterFormCard() {
     return (
-        <div className="w-[500px] h-full max-h-[750px] rounded-2xl pt-12 bg-[#EEEDED] shadow-xl flex flex-col items-center">
+        <div className="w-[550px] h-full max-h-[750px] rounded-2xl pt-12 bg-[#EEEDED] shadow-xl flex flex-col items-center">
             <Image
                 className="min-w-[50px] mx-auto"
                 src={letterLogo}

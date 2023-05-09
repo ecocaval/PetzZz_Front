@@ -1,7 +1,16 @@
-export default function Home() {
-  return (
-    <main className="flex items-center justify-around">
+import { redirect } from "next/navigation";
 
-    </main>
+export default function Home() {
+
+  const isAuthenticated = false
+
+  if (!isAuthenticated) {
+    redirect('/sign-up')
+    return <></>
+  };
+
+  return (
+    <main className="flex items-center justify-around" >
+    </main >
   )
 }
