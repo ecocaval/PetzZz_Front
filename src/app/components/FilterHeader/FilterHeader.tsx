@@ -1,5 +1,3 @@
-'use-client'
-
 //? Libraries
 import { Lato } from "next/font/google";
 
