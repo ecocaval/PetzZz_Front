@@ -23,7 +23,7 @@ const LEFT_SECTION_BOTTOM_TEXT = "Garantir suas entregas com rapidez e qualidade
 export function RegisterAnnouncementCard() {
     return (
         <>
-            <div className="w-[56%] h-2/3 px-4 flex-start rounded-2xl shadow-xl bg-[var(--super-heavy-yellow-bg)]">
+            <div className="w-[60%] h-2/3 px-4 flex-start rounded-2xl shadow-xl bg-[var(--super-heavy-yellow-bg)]">
                 <div className='w-1/2 py-8'>
                     <h2 className={`${poppinsTextFont.className} text-shadow text-white text-center text-2xl`}>
                         Nosso objetivo?

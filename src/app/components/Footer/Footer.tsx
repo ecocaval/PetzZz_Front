@@ -9,7 +9,7 @@ const poppinsTextFont = Poppins({
 
 export function Footer() {
     return (
-        <main className="h-20 flex gap-40 justify-center items-center w-full bg-[var(--main-blue-bg)]">
+        <main className="h-12 flex gap-40 justify-center items-center w-full bg-[var(--main-blue-bg)]">
             <p className={`${poppinsTextFont.className} text-white`} >
                 Desenvolvido por Érico
             </p>

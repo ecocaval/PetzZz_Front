@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function SignUp() {
   return (
-    <main className="flex justify-between grow px-32 py-12 bg-white">
+    <main className="flex justify-between grow px-32 py-10 bg-white">
       <RegisterFormCard/>
       <RegisterAnnouncementCard/>
     </main> 
