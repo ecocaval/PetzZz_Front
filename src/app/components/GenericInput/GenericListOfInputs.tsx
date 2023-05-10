@@ -1,30 +1,28 @@
 interface GenericListOfInputs {
-  inputText?: string;
+  inputName?: string;
   options?: string[];
   extraClassConfigs?: string;
 }
 
 export default function GenericListOfInputs({
   options,
-  inputText,
+  inputName,
   extraClassConfigs,
 }: GenericListOfInputs) {
-
   return (
     <>
-      <input
-        list={`${inputText}-options`}
-        id="ordenar"
+      <select
         className={"w-36 p-1 mr-8 rounded " + extraClassConfigs}
-        placeholder={inputText}
-        type="text"
-        autoComplete="off"
-      />
-      <datalist id={`${inputText}-options`}>
+        placeholder="asdasd"
+        name={inputName}
+        id={inputName}
+      >
         {options?.map((option, index) => (
-          <option key={index} value={option}></option>
+          <option key={index} value={option}>
+            {option}
+          </option>
         ))}
-      </datalist>
+      </select>
     </>
   );
 }

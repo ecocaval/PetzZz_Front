@@ -38,7 +38,7 @@ export default function FilterHeader() {
         </label>
         <GenericListOfInputs 
             options={orderOptions}
-            inputText="Ordenar"
+            inputName="Ordenar"
         />
       </div>
       <div className="flex items-center mx-4 w-fit h-12 border-white border-r-2 border-dotted">
@@ -47,7 +47,7 @@ export default function FilterHeader() {
         </label>
         <GenericListOfInputs
             options={perPageOptions}
-            inputText="Exibir"
+            inputName="Exibir"
         />
       </div>
       <div className="flex items-center pr-8 mx-4 w-fit h-12 border-white border-r-2 border-dotted">
