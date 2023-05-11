@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/RegisterFormCard/RegisterFormCard.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/RegisterFormCard/RegisterFormCard.tsx", "src/app/components/ProductCard/ProductCardInfo"],
   "exclude": ["node_modules"]
 }

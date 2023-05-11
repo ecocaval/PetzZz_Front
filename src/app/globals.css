@@ -7,15 +7,21 @@
 :root {
 	/* Blue colors used in design */
 	--main-blue-bg: #00558B;
+	--border-blue: #B3CCDD; /*main-blue with 30% opacity (ColorZilla)*/
 	--light-blue-bg: #DDE5EB;
-
+	
 	/* Yellow colors used in design */
 	--super-heavy-yellow-bg: #FFCEAD;
 	--heavy-yellow-bg: #FECFB0;
 	--light-yellow-bg: #FFE3D0;
 	--product-yellow-bg: #F1924D;
+	--product-yellow-border: #F8C9A5; /*product-yellow-bb with 30% opacity (ColorZilla)*/
 
 	--card-opaque-yellow-bg: #FFF0E6;
+
+	--light-grey: #AAAAAA;
+
+	--promo-price-color: #2F7B32;
 
 	/* Colors used in input responsiveness design */
 	--wrong-input-red-bg: #950000;

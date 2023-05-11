@@ -61,7 +61,6 @@ export default function FilterHeader() {
       </div>
       <div className="flex items-center ml-64 w-fit h-12 text-white">
         <p>
-          {" "}
           <strong className="font-bold">1024</strong> produtos
         </p>
       </div>

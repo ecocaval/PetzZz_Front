@@ -1,5 +1,5 @@
 import FilterHeader from "../components/FilterHeader/FilterHeader"
-import ProductsList from "../components/ProductsList/Products"
+import ProductsList from "../components/ProductsList/ProductsList"
 
 export const metadata = {
     title: 'PetzZz - Products'
