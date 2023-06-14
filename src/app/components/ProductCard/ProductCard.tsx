@@ -28,7 +28,7 @@ interface ProductCard {
 
 export default function ProductCard({title, isPromo, price, promoPrice, mainImage, description}: ProductCard) {
   return (
-    <div className={`${latoTextFont.className} w-60 h-72 m-8 rounded-xl`}>
+    <div className={`${latoTextFont.className} m-6 w-60 h-72 rounded-xl`}>
       <h1 className="w-full truncate text-center font-semibold text-white p-2 bg-[var(--main-blue-bg)] rounded-t-xl">
         {title}
       </h1>

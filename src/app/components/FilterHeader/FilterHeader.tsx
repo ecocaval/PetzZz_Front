@@ -29,7 +29,7 @@ export default function FilterHeader() {
   ];
 
   return (
-    <main
+    <div
       className={`${latoTextFont.className} flex items-center justify-center w-screen h-20 bg-[var(--main-blue-bg)]`}
     >
       <div className="flex items-center mx-4 w-fit h-12 border-white border-r-2 border-dotted">
@@ -64,6 +64,6 @@ export default function FilterHeader() {
           <strong className="font-bold">1024</strong> produtos
         </p>
       </div>
-    </main>
+    </div>
   );
 }
